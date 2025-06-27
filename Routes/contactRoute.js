@@ -14,7 +14,7 @@ router.get("/", async (req, res) => {
     res.status(400).json({ message: err.message });
   }
 });
-router.get("/:contactId", validateNegateContact, async (req, res) => {
+router.get("/:contactId",  async (req, res) => {
   try {
     const result = await ContactModel.find(
       { contact_id: req.params.contactId },

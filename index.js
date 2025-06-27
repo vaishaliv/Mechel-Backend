@@ -23,9 +23,7 @@ app.use("/api/customer", customerRouter);
 
 mongoose.Promise = global.Promise;
 // const DATABASE_URL ="mongodb://localhost:27017"
-const DATABASE_URL =
-  "mongodb+srv://vaishaliviragi:IshaSonu1@cluster0.vf1wwpw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
-
+const DATABASE_URL = process.env.DATABASE_URL;
 mongoose
   .connect(DATABASE_URL, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {

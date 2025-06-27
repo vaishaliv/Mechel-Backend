@@ -1,0 +1,35 @@
+[
+  {
+    "contactId": "C001",
+    "name": "Contact One",
+    "email": "one@one.com",
+    "phone": "1234567890",
+    "message": "Message One Sample...",
+    "created_on": "",
+    "edited_on": "",
+    "created_by": "",
+    "edited_by": ""
+  },
+  {
+    "contactId": "C002",
+    "name": "Contact Two",
+    "email": "two@two.com",
+    "phone": "1234567890",
+    "message": "Message Two Sample...",
+    "created_on": "",
+    "edited_on": "",
+    "created_by": "",
+    "edited_by": ""
+  },
+  {
+    "contactId": "C003",
+    "name": "Contact Three",
+    "email": "three@three.com",
+    "phone": "1234567890",
+    "message": "Message Three Sample...",
+    "created_on": "",
+    "edited_on": "",
+    "created_by": "",
+    "edited_by": ""
+  }
+]
